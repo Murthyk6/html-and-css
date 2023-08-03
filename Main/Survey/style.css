@@ -1,0 +1,54 @@
+body{
+background-image:linear-gradient(
+                       rgba(13, 15, 18, 0.75),
+                       rgba(13, 15, 18, 0.75)),
+                     url('Background.png');
+
+ background-size: cover;
+text-align: center;
+font-family: helvetica;
+font-size: 20px;
+color: white;
+margin: 0 auto;
+}
+header {
+  padding-top: 10px
+}
+
+.container{
+background: rgba(207, 215, 227, 0.5);
+margin: 0 auto;
+width: 700px;
+border-radius: 10px 10px;
+}
+form{
+text-align:left;
+padding: 20px 20px 20px 20px;
+color: black;
+
+}
+input,.input-textarea{
+width: 90%;
+ padding: 10px;
+ font-size: 20px;
+ margin:15px;
+ border-radius: 7px 7px;
+}
+#Gender,#submit,#willing{
+width: 94%;
+padding: 10px;
+ font-size: 20px;
+ margin:15px;
+ border-radius: 7px 7px;
+}
+#submit{
+ background: orange;
+}
+
+a{
+border:2px solid black;
+font-size:20px;
+padding:5px;
+background-color:orange;
+margin-left:35%;
+}

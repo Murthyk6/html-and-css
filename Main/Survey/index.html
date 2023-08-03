@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Class Trip Opinion Form</h1>
+</header>
+<p>Take some time and Fill all the details</p>
+<div class="container">
+    <form id="survey-form" action="thankyou.html" method="post">
+        <div class="form-group">
+            <label id="name-label" for="name">Name</label><br>
+            <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required="">
+        </div>
+        <div class="form-group">
+            <label id="roll-no" for="roll-no">RollNo.</label><br>
+            <input type="number" name="roll-no" id="rollno" class="form-control" placeholder="Enter your RollNo" required="">
+        </div>
+        <div class="form-group">
+            <P>Gender</P>
+            <table>
+                <tr>
+
+                    <td><input type="radio" id="male" name="gender" value="male"></td>
+                    <td><label for="male">Male</label></td>
+                    <td><input type="radio" id="female" name="gender" value="female"></td>
+                    <td><label for="female">Female</label></td>
+                    <td><input type="radio" id="others" name="gender" value="others"></td>
+                    <td><label for="others">Others</label></td>
+                </tr>
+            </table>
+        </div>
+        <div class="form-group">
+            <p></p>
+            <label id="PhoneNo-label" for="number">Phone Number<span class="clue">(parent's)</span></label>
+            <input type="number" name="phoneNumber" id="number"class="form-control" placeholder="Phone Number">
+        </div>
+        <div class="form-group">
+            <p>Are you willing to come for trip ?</p>
+            <select id="willing" name="role" class="form-control" required="">
+                <option disabled="" selected="" value="">Select choice</option>
+                <option value="yes">Yes</option>
+                <option value="no">No</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <p> </p>
+            <label id="address-label" for="name">Address</label><br>
+            <textarea id="address" class="input-textarea" name="address" placeholder="Enter your address here" style="height: 47px;"></textarea>
+        </div>
+        <div class="form-group">
+            <p>Your choice to visit first : (you can choose multiple)</p>
+            <table>
+                <tr>
+                    <td><input type="checkbox" id="place1" name="place1" value="LalbaghBotanicalGarden"></td>
+                    <td><label for="place1">Lalbagh Botanical Garden</label></td>
+                </tr>
+            <tr>
+                <td><input type="checkbox" id="place2" name="place3" value="Bangaluru palace"></td>
+                <td><label for="place2">Bangaluru palace</label></td>
+            </tr>
+                <tr>
+                    <td><input type="checkbox" id="place3" name="place3" value="HALHeritageCentreandAerospaceMuseum"></td>
+                    <td><label for="place3">HAL Heritage Centre and Aerospace Museum</label></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="form-group">
+            <p>Any comments or suggestions?</p>
+            <textarea id="comments" class="input-textarea" name="comment" placeholder="Enter your comment here..." style="height: 47px;"></textarea>
+        </div>
+
+        <div class="form-group">
+           <button type="submit" id="submit" class="submit-button" >
+                Submit
+               </button>
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,63 @@
+/* Reset default margin and padding for body and header elements */
+body, header {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styling to the header and navigation */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav {
+  background-color: #444;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #ff0;
+}
+
+/* Apply some basic styling to the main content area */
+main {
+  padding: 20px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Set the default link color */
+a {
+  color: #00f;
+  text-decoration: none;
+}
+
+/* Style the link on hover */
+a:hover {
+  color: #f00;
+}
